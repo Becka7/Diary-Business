@@ -10,3 +10,9 @@ function tto(a,b,c,d){
 }
 total(510,308,486,572)
 console.log("The total otput for all shades is "+ tto(510,308,486,572)+" litres");
+
+var income=function totalIncome(price,litres,time){
+    return time*price*litres
+}
+console.log(income(45,1876,7));
+console.log(income(45,1876,365));
