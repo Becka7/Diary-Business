@@ -1,31 +1,140 @@
 html{
-    
-    
+    /* background-image: url(/images/5feea0731e913b9bd3db380a79847392.jpg); */
+    /* background-image: url(/images/istockphoto-539023802-612x612.jpg); */
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Merienda', cursive;
 }
 #landing{
-    background-image: url(/images/images.jpeg);
+    /* background-image: url(/ERP-Software-for-Dairy-Industry-by-Uneecops-1-1.jpg); */
+    /* background-image: url(/images/dairy-natural-products-fresh-milk-splash-wave-vector-30782791.jpg); */
+    background-image: url(/images/istockphoto-539023802-612x612.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
     color:black;
-    height: 100vh;
+    height: 90vh;
+    width: 100%;
+    /* margin-left: 20%; */
 
 }
 #landing h1,h2,p{
-    float: left;
-    text-align: left;
+      /* float: left; */
+      text-align:center;
 }
 #landing img{
     height:30vh; 
+    background-color: white;
     /* width:50%; */ 
     /* float: left; */
   
 }
-#about{
+#about h1 ,p{
     text-align: center;
-    /* background-image: url(https://thumbs.dreamstime.com/t/gradient-green-white-background-gradient-green-light-white-background-103907817.jpg); */
+    /* height: 80vh; */
+    /* opacity: 0.4; */
+}
+#nav {
+    height: 10vh;
+    width: 100%;
+    justify-content: space-around;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* background-color:blue;
+    opacity: 0.5;  */
+    /* background-color:whitesmoke;
+     opacity:0.7%  */
+}
+#nav a{
+    color:white;
+    
+}
+span{
+    color:transparent;
+}
+#about{
+    /* display: flex; */
+    
+    margin-top: 10%;
+    /* margin-left: 15%;   */
+    /* border:1px solid wheat;  */
+    /* width:70%; */
+    height :60vh;
+    /* box-shadow: 5px 5px 5px green; */
+
+    /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQl1A8F0GHf029l3JQxNMhBiMd5ISuOtyPywHsgrYuY80vnz6917TCPfzLjUF50pcbELWA&usqp=CAU); */
     background-repeat: no-repeat;
     background-size: cover;
-    height: 80vh;
-    /* opacity: 0.4; */
+    margin-bottom: 10%;
+    /* background-image: url(/images/istockphoto-1148061578-612x612.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover; */
+    box-shadow: 3px 3px 3px 3px grey;
+    border-radius: 10px;
+}
+#cows{
+    float:left;
+    width:40%;
+    height:60vh;
+    margin-right: 5%;
+    border-radius: 5px;
+}
+#ouput{
+    /* background-image:url(https://images.unsplash.com/photo-1557683316-973673baf926?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8M3x8fGVufDB8fHx8&w=1000&q=80); 
+    background-repeat: no-repeat;
+    background-size: cover; */
+    /* background-image: url(/images/istockphoto-1148061578-612x612.jpg);  */
+    background-image: url(/images/istockphoto-540762390-612x612.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color:black;
+    margin-bottom: 5%;
+
+    
+}
+.half{
+    /* background-image: url(/images/photo-1507103011901-e954d6ec0988.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    margin-top: 10%; */
+   
+}
+#litres{
+    background-color: white;
+    /* opacity: 0.5; */
+}
+footer{
+    background-image: url(/images/istockphoto-1148061578-612x612.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+footer img{
+    height: 20vh;
+}
+form{
+    text-align: center;
+    font-family: 'Merienda', cursive;
+    font-size:150%;
+    opacity: 0.5;
+    padding-bottom: 5%;
+}
+button{
+    color:black;
+    background-color:white;
+    /* border: radius 5px; */
+    font-family: 'Merienda', cursive;
+    text-align: center;
+
+
+
+}#email{
+    font-family: 'Merienda', cursive;
+    /* opacity: 0.3; */
+    font-size:90%;
 }
