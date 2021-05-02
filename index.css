@@ -9,7 +9,7 @@ html{
 #landing{
     /* background-image: url(/ERP-Software-for-Dairy-Industry-by-Uneecops-1-1.jpg); */
     /* background-image: url(/images/dairy-natural-products-fresh-milk-splash-wave-vector-30782791.jpg); */
-    background-image: url(../images/istockphoto-539023802-612x612.jpg);
+    background-image: url(./images/istockphoto-539023802-612x612.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
@@ -86,7 +86,7 @@ span{
     background-repeat: no-repeat;
     background-size: cover; */
     /* background-image: url(/images/istockphoto-1148061578-612x612.jpg);  */
-    background-image: url(/images/istockphoto-540762390-612x612.jpg);
+    background-image: url(./images/istockphoto-540762390-612x612.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
@@ -109,7 +109,7 @@ span{
     /* opacity: 0.5; */
 }
 footer{
-    background-image: url(/images/istockphoto-1148061578-612x612.jpg);
+    background-image: url(./images/istockphoto-1148061578-612x612.jpg);
     background-repeat: no-repeat;
     background-size: cover;
   
