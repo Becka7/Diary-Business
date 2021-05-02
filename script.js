@@ -25,6 +25,7 @@ document.write("The daily income "+(income(45,1876,1))+"<br>");
 document.write(""+"<br>"+"<br>")
 
 var months= [31,30,29];{
+    document.write("<h1>"+"Monthly"+"</h1>");
     document.write("The total income for January is "+ months[0]*8446+"<br>");
     document.write("The total income for February is "+ months[2]*8446+"<br>");
     document.write("The total income for March is "+ months[0]*8446+"<br>");
