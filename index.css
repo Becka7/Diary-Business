@@ -1,0 +1,31 @@
+html{
+    
+    
+}
+#landing{
+    background-image: url(/images/images.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color:black;
+    height: 100vh;
+
+}
+#landing h1,h2,p{
+    float: left;
+    text-align: left;
+}
+#landing img{
+    height:30vh; 
+    /* width:50%; */ 
+    /* float: left; */
+  
+}
+#about{
+    text-align: center;
+    /* background-image: url(https://thumbs.dreamstime.com/t/gradient-green-white-background-gradient-green-light-white-background-103907817.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    /* opacity: 0.4; */
+}
