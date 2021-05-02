@@ -14,7 +14,7 @@ document.write("The total otput for all shades is "+ tto(510,308,486,572)+" litr
 document.write(""+"<br>"+"<br>")
 
 
-var get=document.getElementById("average");
+// var get=document.getElementById("average");
 
 var income=function totalIncome(price,litres,time){
     return time*price*litres
