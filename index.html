@@ -5,25 +5,73 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300&family=Merienda&family=Rokkitt:wght@200&family=Sawarabi+Mincho&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="index.css">
    
 </head>
 <body>
     
     <div id="landing">
+        <div id ="nav">
+            <nav>
+               
+                    <!-- <button  id="close" onclick="closeNav()"><i class="fas fa-times"></i></button> -->
+                    <!-- <li style="padding-top: 20%;">  -->
+                    <a href=#landing>Home</a>
+                    <span>.......................</span>
+                    <a href="#about">About</a>
+                    <span>............................</span>
+                    <a href="#monthly">Output</a>
+                    <span>............................</span>
+                    <a href="#foot">Contacts</a>
+                
+            </nav>
+        </div>
        
-        
-        <img src="/images/dairy-farm-cow-logo-design-template-3d4014bf8fb4ffd56fb236a9aaf63530_screen.jpg">
-         <h1>FRESH DAIRY FARM</h1>
-        <h2>Get you some Moo milk</h2>
-        <p>Dairy is a locally owned, locally focused dairy enterprise that is founded on our desire to provide affordable, nutritious and enjoyable dairy products. We are passionate about the experience we deliver every day and we want to breathe new life and energy into the industry as a whole.</p>
-        <p id= "output">Here is the output we get daily from each shade</p>
-        <p id="average">The esimated expected income weekly and yearly</p>
-      
-    </div> 
-    <div id=about>
-          <script type="text/javascript" src="script.js"></script>
+        <h1>FRESH DAIRY FARM</h1>
+        <img src="/images/fresh-dairy-milk-background-vector-15262936.jpg">
+         
+        <h2 style="color: white;">Get you some Moore milk</h2>
     </div>
+    <div class=half>
+         <div id=about>
+        <img id ="cows" src="/images/images (2).jpeg">  
+        <h1>About us</h1>
+        <p>Fresh Dairy is a locally owned, locally focused dairy enterprise that is founded on our desire to provide affordable, nutritious and enjoyable dairy products. We are passionate about the experience we deliver every day and we want to breathe new life and energy into the industry as a whole.This is a small-scale family farm that was started in 2007 in Tala, Machakos County, Kenya .It has four shades each with 30 dairy cows and an extra shade for steers.
+            The farm specializes in breeding of pedigree Holstein Friesian and Jersey cows. In an effort to breed the best, we artificially inseminate our cows with imported semen from North America ( CRI ) and Netherlands ( CRV )and New Zealand.</p>
+       
+    </div> 
+      
+    <div id=ouput> 
+
+        
+        
+        <h1 id= "output">Here is the estimated output </h1>
+        <!-- <p id="average">The esimated expected income weekly and yearly</p> -->
+      <!-- <img src="/images/png-clipart-white-black-white-cow-grandmother-creative-wave-splash-hand-removebg-preview.png" > -->
+          <script id="litres" src="script.js" style=background-color:white;></script>
+    </div>
+    <div id="monthly">
+
+    </div>
+    </div>
+    <footer>
+        <!-- <img src="/images/png-clipart-white-black-white-cow-grandmother-creative-wave-splash-hand-removebg-preview.png"> -->
+        <h2>Contact us ;</h2>
+        <p>freshdairy@gmail.com</p>
+        <p>TEll:076873289</p>
+        <h2>You can sent us an email</h2>
+
+        <form>
+            <!-- <label>First name</label><br> -->
+            <input id="email" type="text" placeholder="Firstname">
+            <!-- <label>Last name</label><br> -->
+            <input id="email" type="text" placeholder="Lastname">
+            <input id="email" type="email" placeholder = "Your email">
+            <button type="Submit" name="submitbtn"><h2>Submit</h2></button>
+        </form>
+    </footer>
     
 </body>
 </html>
