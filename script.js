@@ -26,19 +26,19 @@ document.write(""+"<br>"+"<br>")
 
 var months= [31,30,29];{
     document.write("<h1>"+"Monthly"+"</h1>");
-    document.write("The total income for January is "+ months[0]*8446+"<br>");
-    document.write("The total income for February is "+ months[2]*8446+"<br>");
-    document.write("The total income for March is "+ months[0]*8446+"<br>");
-    document.write("The total income for April is "+ months[1]*8446+"<br>");
-    document.write("The total income for May is "+ months[0]*8446+"<br>");
-    document.write("The total income for June is "+ months[1]*8446+"<br>");
-    document.write("The total income for July is "+ months[0]*8446+"<br>");
-    document.write("The total income for August is "+ months[0]*8446+"<br>");
-    document.write("The total income for september is "+ months[1]*8446+"<br>");
-    document.write("The total income for september is "+ months[1]*8446+"<br>");
-    document.write("The total income for October is "+ months[0]*8446+"<br>");
-    document.write("The total income for November is "+ months[1]*8446+"<br>");
-    document.write("The total income for December is "+ months[0]*8446+"<br>");
+    document.write("The total income for January is "+ months[0]*84420+"<br>");
+    document.write("The total income for February is "+ months[2]*84420+"<br>");
+    document.write("The total income for March is "+ months[0]*84420+"<br>");
+    document.write("The total income for April is "+ months[1]*84420+"<br>");
+    document.write("The total income for May is "+ months[0]*84420+"<br>");
+    document.write("The total income for June is "+ months[1]*84420+"<br>");
+    document.write("The total income for July is "+ months[0]*84420+"<br>");
+    document.write("The total income for August is "+ months[0]*84420+"<br>");
+    document.write("The total income for september is "+ months[1]*84420+"<br>");
+    document.write("The total income for september is "+ months[1]*84420+"<br>");
+    document.write("The total income for October is "+ months[0]*84420+"<br>");
+    document.write("The total income for November is "+ months[1]*84420+"<br>");
+    document.write("The total income for December is "+ months[0]*84420+"<br>");
     
 }
 
